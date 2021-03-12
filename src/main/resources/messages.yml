@@ -1,0 +1,4 @@
+prefix:
+  enabled: false
+  prefix: '&4Staff Alert: '
+alert: '&7Default players lack the permission &e%permission% &7so they cannot use &e%command%'
