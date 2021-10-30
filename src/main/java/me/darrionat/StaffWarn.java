@@ -34,6 +34,6 @@ public class StaffWarn extends JavaPlugin {
 	}
 
 	public void systemLog(String s) {
-		System.out.println(Utils.chat("[" + getName() + " " + getDescription().getVersion() + "] " + s));
+		this.getLogger().info(Utils.chat("[" + getName() + " " + getDescription().getVersion() + "] " + s));
 	}
 }
